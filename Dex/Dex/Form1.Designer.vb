@@ -94,7 +94,7 @@ Partial Class Form1
         '
         Me.Field1.Location = New System.Drawing.Point(356, 117)
         Me.Field1.Name = "Field1"
-        Me.Field1.Size = New System.Drawing.Size(89, 22)
+        Me.Field1.Size = New System.Drawing.Size(123, 22)
         Me.Field1.TabIndex = 3
         '
         'Label1
