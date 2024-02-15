@@ -118,19 +118,73 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="vader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\vader.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61HW2ONPf-L._AC_UF894,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61HW2ONPf-L._AC_UF894,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lay-s-baked-original-potato-chips-6-25-oz-bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lay-s-baked-original-potato-chips-6-25-oz-bag.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91M5DIRwhoL._AC_UF894,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\91M5DIRwhoL._AC_UF894,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91Q+Hif--IL._SL1500_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\91Q+Hif--IL._SL1500_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81EUE1oZURL._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81EUE1oZURL._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d5rwc5p-b7785887-7789-41db-8951-1614d3ece0bc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d5rwc5p-b7785887-7789-41db-8951-1614d3ece0bc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="75752803746" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\75752803746.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="816HXqv8UiL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\816HXqv8UiL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="812tZPyk0fL._AC_UF894,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\812tZPyk0fL._AC_UF894,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2019-america-the-beautiful-quarters-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2019-america-the-beautiful-quarters-W.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81iUuyr2R7L" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81iUuyr2R7L.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2000-native-american-one-dollar-uncirculated-obverse-768x768" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2000-native-american-one-dollar-uncirculated-obverse-768x768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (1).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2023-jefferson-nickel-uncirculated-reverse-768x768" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2023-jefferson-nickel-uncirculated-reverse-768x768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91NjwbVi0+L._AC_UF1000,1000_QL80_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\91NjwbVi0+L._AC_UF1000,1000_QL80_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GUEST_ad5ad35a-2fe7-4209-ae0d-7f71fa2d8329" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GUEST_ad5ad35a-2fe7-4209-ae0d-7f71fa2d8329.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="51ce+QI5dIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\51ce+QI5dIL.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0757528008680_0_A1C1_0600" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0757528008680_0_A1C1_0600.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="nickel-thinkstock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nickel-thinkstock.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2023-roosevelt-dime-uncirculated-reverse-768x768" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2023-roosevelt-dime-uncirculated-reverse-768x768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2000-native-american-one-dollar-uncirculated-obverse-768x768" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2000-native-american-one-dollar-uncirculated-obverse-768x768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2019-america-the-beautiful-quarters-W" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2019-america-the-beautiful-quarters-W.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="2023-jefferson-nickel-uncirculated-reverse-768x768" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2023-jefferson-nickel-uncirculated-reverse-768x768.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
