@@ -31,6 +31,8 @@ Partial Class Form3
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.UserControl11 = New lethalcom.UserControl1()
+        Me.UserControl12 = New lethalcom.UserControl1()
+        Me.UserControl13 = New lethalcom.UserControl1()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -121,12 +123,30 @@ Partial Class Form3
         Me.UserControl11.Size = New System.Drawing.Size(228, 233)
         Me.UserControl11.TabIndex = 42
         '
+        'UserControl12
+        '
+        Me.UserControl12.Location = New System.Drawing.Point(364, 68)
+        Me.UserControl12.moon = 1
+        Me.UserControl12.Name = "UserControl12"
+        Me.UserControl12.Size = New System.Drawing.Size(231, 233)
+        Me.UserControl12.TabIndex = 43
+        '
+        'UserControl13
+        '
+        Me.UserControl13.Location = New System.Drawing.Point(644, 68)
+        Me.UserControl13.moon = 2
+        Me.UserControl13.Name = "UserControl13"
+        Me.UserControl13.Size = New System.Drawing.Size(231, 233)
+        Me.UserControl13.TabIndex = 44
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1892, 1012)
+        Me.Controls.Add(Me.UserControl13)
+        Me.Controls.Add(Me.UserControl12)
         Me.Controls.Add(Me.UserControl11)
         Me.Controls.Add(Me.PictureBox10)
         Me.Controls.Add(Me.PictureBox9)
@@ -159,4 +179,6 @@ Partial Class Form3
     Friend WithEvents PictureBox4 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents UserControl11 As UserControl1
+    Friend WithEvents UserControl12 As UserControl1
+    Friend WithEvents UserControl13 As UserControl1
 End Class
