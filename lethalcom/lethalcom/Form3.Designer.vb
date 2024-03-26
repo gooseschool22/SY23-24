@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form3
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox9 = New System.Windows.Forms.PictureBox()
@@ -33,6 +33,11 @@ Partial Class Form3
         Me.UserControl11 = New lethalcom.UserControl1()
         Me.UserControl12 = New lethalcom.UserControl1()
         Me.UserControl13 = New lethalcom.UserControl1()
+        Me.UserControl14 = New lethalcom.UserControl1()
+        Me.UserControl15 = New lethalcom.UserControl1()
+        Me.UserControl16 = New lethalcom.UserControl1()
+        Me.UserControl17 = New lethalcom.UserControl1()
+        Me.UserControl18 = New lethalcom.UserControl1()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -117,7 +122,7 @@ Partial Class Form3
         '
         'UserControl11
         '
-        Me.UserControl11.Location = New System.Drawing.Point(89, 68)
+        Me.UserControl11.Location = New System.Drawing.Point(190, 68)
         Me.UserControl11.moon = 0
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.Size = New System.Drawing.Size(228, 233)
@@ -125,7 +130,7 @@ Partial Class Form3
         '
         'UserControl12
         '
-        Me.UserControl12.Location = New System.Drawing.Point(364, 68)
+        Me.UserControl12.Location = New System.Drawing.Point(610, 68)
         Me.UserControl12.moon = 1
         Me.UserControl12.Name = "UserControl12"
         Me.UserControl12.Size = New System.Drawing.Size(231, 233)
@@ -133,11 +138,51 @@ Partial Class Form3
         '
         'UserControl13
         '
-        Me.UserControl13.Location = New System.Drawing.Point(644, 68)
+        Me.UserControl13.Location = New System.Drawing.Point(1046, 68)
         Me.UserControl13.moon = 2
         Me.UserControl13.Name = "UserControl13"
-        Me.UserControl13.Size = New System.Drawing.Size(231, 233)
+        Me.UserControl13.Size = New System.Drawing.Size(232, 233)
         Me.UserControl13.TabIndex = 44
+        '
+        'UserControl14
+        '
+        Me.UserControl14.Location = New System.Drawing.Point(1472, 68)
+        Me.UserControl14.moon = 3
+        Me.UserControl14.Name = "UserControl14"
+        Me.UserControl14.Size = New System.Drawing.Size(232, 233)
+        Me.UserControl14.TabIndex = 45
+        '
+        'UserControl15
+        '
+        Me.UserControl15.Location = New System.Drawing.Point(1472, 564)
+        Me.UserControl15.moon = 7
+        Me.UserControl15.Name = "UserControl15"
+        Me.UserControl15.Size = New System.Drawing.Size(232, 233)
+        Me.UserControl15.TabIndex = 49
+        '
+        'UserControl16
+        '
+        Me.UserControl16.Location = New System.Drawing.Point(1046, 564)
+        Me.UserControl16.moon = 6
+        Me.UserControl16.Name = "UserControl16"
+        Me.UserControl16.Size = New System.Drawing.Size(232, 233)
+        Me.UserControl16.TabIndex = 48
+        '
+        'UserControl17
+        '
+        Me.UserControl17.Location = New System.Drawing.Point(610, 564)
+        Me.UserControl17.moon = 5
+        Me.UserControl17.Name = "UserControl17"
+        Me.UserControl17.Size = New System.Drawing.Size(231, 233)
+        Me.UserControl17.TabIndex = 47
+        '
+        'UserControl18
+        '
+        Me.UserControl18.Location = New System.Drawing.Point(190, 564)
+        Me.UserControl18.moon = 4
+        Me.UserControl18.Name = "UserControl18"
+        Me.UserControl18.Size = New System.Drawing.Size(228, 233)
+        Me.UserControl18.TabIndex = 46
         '
         'Form3
         '
@@ -145,6 +190,11 @@ Partial Class Form3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1892, 1012)
+        Me.Controls.Add(Me.UserControl15)
+        Me.Controls.Add(Me.UserControl16)
+        Me.Controls.Add(Me.UserControl17)
+        Me.Controls.Add(Me.UserControl18)
+        Me.Controls.Add(Me.UserControl14)
         Me.Controls.Add(Me.UserControl13)
         Me.Controls.Add(Me.UserControl12)
         Me.Controls.Add(Me.UserControl11)
@@ -181,4 +231,9 @@ Partial Class Form3
     Friend WithEvents UserControl11 As UserControl1
     Friend WithEvents UserControl12 As UserControl1
     Friend WithEvents UserControl13 As UserControl1
+    Friend WithEvents UserControl14 As UserControl1
+    Friend WithEvents UserControl15 As UserControl1
+    Friend WithEvents UserControl16 As UserControl1
+    Friend WithEvents UserControl17 As UserControl1
+    Friend WithEvents UserControl18 As UserControl1
 End Class
