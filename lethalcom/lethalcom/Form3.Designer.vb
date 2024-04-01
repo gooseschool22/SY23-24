@@ -38,6 +38,17 @@ Partial Class Form3
         Me.UserControl16 = New lethalcom.UserControl1()
         Me.UserControl17 = New lethalcom.UserControl1()
         Me.UserControl18 = New lethalcom.UserControl1()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -122,7 +133,7 @@ Partial Class Form3
         '
         'UserControl11
         '
-        Me.UserControl11.Location = New System.Drawing.Point(190, 68)
+        Me.UserControl11.Location = New System.Drawing.Point(196, 140)
         Me.UserControl11.moon = 0
         Me.UserControl11.Name = "UserControl11"
         Me.UserControl11.Size = New System.Drawing.Size(228, 233)
@@ -130,7 +141,7 @@ Partial Class Form3
         '
         'UserControl12
         '
-        Me.UserControl12.Location = New System.Drawing.Point(610, 68)
+        Me.UserControl12.Location = New System.Drawing.Point(616, 140)
         Me.UserControl12.moon = 1
         Me.UserControl12.Name = "UserControl12"
         Me.UserControl12.Size = New System.Drawing.Size(231, 233)
@@ -138,7 +149,7 @@ Partial Class Form3
         '
         'UserControl13
         '
-        Me.UserControl13.Location = New System.Drawing.Point(1046, 68)
+        Me.UserControl13.Location = New System.Drawing.Point(1052, 140)
         Me.UserControl13.moon = 2
         Me.UserControl13.Name = "UserControl13"
         Me.UserControl13.Size = New System.Drawing.Size(232, 233)
@@ -146,7 +157,7 @@ Partial Class Form3
         '
         'UserControl14
         '
-        Me.UserControl14.Location = New System.Drawing.Point(1472, 68)
+        Me.UserControl14.Location = New System.Drawing.Point(1478, 140)
         Me.UserControl14.moon = 3
         Me.UserControl14.Name = "UserControl14"
         Me.UserControl14.Size = New System.Drawing.Size(232, 233)
@@ -154,7 +165,7 @@ Partial Class Form3
         '
         'UserControl15
         '
-        Me.UserControl15.Location = New System.Drawing.Point(1472, 564)
+        Me.UserControl15.Location = New System.Drawing.Point(1478, 636)
         Me.UserControl15.moon = 7
         Me.UserControl15.Name = "UserControl15"
         Me.UserControl15.Size = New System.Drawing.Size(232, 233)
@@ -162,7 +173,7 @@ Partial Class Form3
         '
         'UserControl16
         '
-        Me.UserControl16.Location = New System.Drawing.Point(1046, 564)
+        Me.UserControl16.Location = New System.Drawing.Point(1052, 636)
         Me.UserControl16.moon = 6
         Me.UserControl16.Name = "UserControl16"
         Me.UserControl16.Size = New System.Drawing.Size(232, 233)
@@ -170,7 +181,7 @@ Partial Class Form3
         '
         'UserControl17
         '
-        Me.UserControl17.Location = New System.Drawing.Point(610, 564)
+        Me.UserControl17.Location = New System.Drawing.Point(616, 636)
         Me.UserControl17.moon = 5
         Me.UserControl17.Name = "UserControl17"
         Me.UserControl17.Size = New System.Drawing.Size(231, 233)
@@ -178,11 +189,132 @@ Partial Class Form3
         '
         'UserControl18
         '
-        Me.UserControl18.Location = New System.Drawing.Point(190, 564)
+        Me.UserControl18.Location = New System.Drawing.Point(196, 636)
         Me.UserControl18.moon = 4
         Me.UserControl18.Name = "UserControl18"
         Me.UserControl18.Size = New System.Drawing.Size(228, 233)
         Me.UserControl18.TabIndex = 46
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.Red
+        Me.Label1.Location = New System.Drawing.Point(216, 105)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(190, 32)
+        Me.Label1.TabIndex = 50
+        Me.Label1.Text = "EXPERIMENTATION"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.ForeColor = System.Drawing.Color.Red
+        Me.Label2.Location = New System.Drawing.Point(661, 105)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(129, 32)
+        Me.Label2.TabIndex = 51
+        Me.Label2.Text = "ASSURANCE"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.ForeColor = System.Drawing.Color.Red
+        Me.Label3.Location = New System.Drawing.Point(1133, 105)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(60, 32)
+        Me.Label3.TabIndex = 52
+        Me.Label3.Text = "VOW"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.ForeColor = System.Drawing.Color.Red
+        Me.Label4.Location = New System.Drawing.Point(1541, 105)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(95, 32)
+        Me.Label4.TabIndex = 53
+        Me.Label4.Text = "OFFENSE"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label5.ForeColor = System.Drawing.Color.Red
+        Me.Label5.Location = New System.Drawing.Point(268, 601)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(85, 32)
+        Me.Label5.TabIndex = 54
+        Me.Label5.Text = "MARCH"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label6.ForeColor = System.Drawing.Color.Red
+        Me.Label6.Location = New System.Drawing.Point(688, 601)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(65, 32)
+        Me.Label6.TabIndex = 55
+        Me.Label6.Text = "REND"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.ForeColor = System.Drawing.Color.Red
+        Me.Label7.Location = New System.Drawing.Point(1133, 601)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(59, 32)
+        Me.Label7.TabIndex = 56
+        Me.Label7.Text = "DINE"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label8.ForeColor = System.Drawing.Color.Red
+        Me.Label8.Location = New System.Drawing.Point(1566, 601)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(70, 32)
+        Me.Label8.TabIndex = 57
+        Me.Label8.Text = "TITAN"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label9.ForeColor = System.Drawing.Color.Red
+        Me.Label9.Location = New System.Drawing.Point(638, 872)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(161, 32)
+        Me.Label9.TabIndex = 58
+        Me.Label9.Text = "+$550 CHARGE"
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label10.ForeColor = System.Drawing.Color.Red
+        Me.Label10.Location = New System.Drawing.Point(1081, 872)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(162, 32)
+        Me.Label10.TabIndex = 59
+        Me.Label10.Text = "+$600 CHARGE"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label11.ForeColor = System.Drawing.Color.Red
+        Me.Label11.Location = New System.Drawing.Point(1514, 872)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(158, 32)
+        Me.Label11.TabIndex = 60
+        Me.Label11.Text = "+$700 CHARGE"
         '
         'Form3
         '
@@ -190,6 +322,17 @@ Partial Class Form3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1892, 1012)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.UserControl15)
         Me.Controls.Add(Me.UserControl16)
         Me.Controls.Add(Me.UserControl17)
@@ -217,6 +360,7 @@ Partial Class Form3
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
@@ -236,4 +380,15 @@ Partial Class Form3
     Friend WithEvents UserControl16 As UserControl1
     Friend WithEvents UserControl17 As UserControl1
     Friend WithEvents UserControl18 As UserControl1
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents Label11 As Label
 End Class

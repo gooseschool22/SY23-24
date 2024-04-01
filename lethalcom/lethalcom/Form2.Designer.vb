@@ -37,13 +37,14 @@ Partial Class Form2
         Me.Label2 = New System.Windows.Forms.Label()
         Me.chargelabel = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.chancelabel = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label7 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.resetbutton = New System.Windows.Forms.Button()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -54,6 +55,8 @@ Partial Class Form2
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.workernumber, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox10
@@ -212,42 +215,6 @@ Partial Class Form2
         Me.Label3.TabIndex = 26
         Me.Label3.Text = "HOW MANY WORKERS?"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.BackColor = System.Drawing.Color.Black
-        Me.Label4.Font = New System.Drawing.Font("Impact", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(657, 15)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(502, 71)
-        Me.Label4.TabIndex = 27
-        Me.Label4.Text = "CHANCE OF VICTORY:"
-        '
-        'chancelabel
-        '
-        Me.chancelabel.AutoSize = True
-        Me.chancelabel.BackColor = System.Drawing.Color.Black
-        Me.chancelabel.Font = New System.Drawing.Font("Impact", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.chancelabel.ForeColor = System.Drawing.Color.Red
-        Me.chancelabel.Location = New System.Drawing.Point(1146, 15)
-        Me.chancelabel.Name = "chancelabel"
-        Me.chancelabel.Size = New System.Drawing.Size(116, 71)
-        Me.chancelabel.TabIndex = 28
-        Me.chancelabel.Text = "100"
-        '
-        'Label6
-        '
-        Me.Label6.AutoSize = True
-        Me.Label6.BackColor = System.Drawing.Color.Black
-        Me.Label6.Font = New System.Drawing.Font("Impact", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.ForeColor = System.Drawing.Color.Red
-        Me.Label6.Location = New System.Drawing.Point(1246, 15)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(71, 71)
-        Me.Label6.TabIndex = 29
-        Me.Label6.Text = "%"
-        '
         'Label5
         '
         Me.Label5.AutoSize = True
@@ -266,7 +233,7 @@ Partial Class Form2
         Me.ComboBox1.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.ComboBox1.ForeColor = System.Drawing.SystemColors.WindowText
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"YES", "NO"})
+        Me.ComboBox1.Items.AddRange(New Object() {"CHOOSE", "YES", "NO"})
         Me.ComboBox1.Location = New System.Drawing.Point(79, 533)
         Me.ComboBox1.MaxDropDownItems = 2
         Me.ComboBox1.Name = "ComboBox1"
@@ -280,6 +247,7 @@ Partial Class Form2
         Me.PictureBox1.Location = New System.Drawing.Point(1457, 68)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(172, 162)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 32
         Me.PictureBox1.TabStop = False
         '
@@ -295,19 +263,62 @@ Partial Class Form2
         Me.Label7.TabIndex = 33
         Me.Label7.Text = "CLICK ON THE BOX TO CHOOSE A PLANET"
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackColor = System.Drawing.Color.Red
+        Me.PictureBox2.Location = New System.Drawing.Point(1640, 787)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(173, 162)
+        Me.PictureBox2.TabIndex = 34
+        Me.PictureBox2.TabStop = False
+        '
+        'resetbutton
+        '
+        Me.resetbutton.BackColor = System.Drawing.Color.Black
+        Me.resetbutton.Font = New System.Drawing.Font("Impact", 15.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.resetbutton.ForeColor = System.Drawing.Color.Red
+        Me.resetbutton.Location = New System.Drawing.Point(1654, 802)
+        Me.resetbutton.Name = "resetbutton"
+        Me.resetbutton.Size = New System.Drawing.Size(145, 135)
+        Me.resetbutton.TabIndex = 35
+        Me.resetbutton.Text = "RESET"
+        Me.resetbutton.UseVisualStyleBackColor = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.BackColor = System.Drawing.Color.Red
+        Me.PictureBox11.Location = New System.Drawing.Point(672, 15)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(318, 162)
+        Me.PictureBox11.TabIndex = 36
+        Me.PictureBox11.TabStop = False
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Black
+        Me.Button1.Font = New System.Drawing.Font("Impact", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.ForeColor = System.Drawing.Color.Red
+        Me.Button1.Location = New System.Drawing.Point(683, 26)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(295, 136)
+        Me.Button1.TabIndex = 37
+        Me.Button1.Text = "READY?"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1892, 1012)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PictureBox11)
+        Me.Controls.Add(Me.resetbutton)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.chancelabel)
-        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.chargelabel)
         Me.Controls.Add(Me.Label2)
@@ -335,6 +346,8 @@ Partial Class Form2
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.workernumber, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -355,11 +368,12 @@ Partial Class Form2
     Friend WithEvents Label2 As Label
     Friend WithEvents chargelabel As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents chancelabel As Label
-    Friend WithEvents Label6 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents ComboBox1 As ComboBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label7 As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents resetbutton As Button
+    Friend WithEvents PictureBox11 As PictureBox
+    Friend WithEvents Button1 As Button
 End Class
