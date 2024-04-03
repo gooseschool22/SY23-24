@@ -41,6 +41,8 @@ Partial Class Form4
         Me.Label3 = New System.Windows.Forms.Label()
         Me.totallabel = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -49,6 +51,7 @@ Partial Class Form4
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox10
@@ -255,12 +258,35 @@ Partial Class Form4
         Me.Label8.TabIndex = 60
         Me.Label8.Text = "TOTAL:"
         '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.Black
+        Me.Button1.Font = New System.Drawing.Font("Impact", 35.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Button1.ForeColor = System.Drawing.Color.Red
+        Me.Button1.Location = New System.Drawing.Point(1478, 781)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(295, 136)
+        Me.Button1.TabIndex = 62
+        Me.Button1.Text = "BACK"
+        Me.Button1.UseVisualStyleBackColor = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.BackColor = System.Drawing.Color.Red
+        Me.PictureBox11.Location = New System.Drawing.Point(1467, 770)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(318, 162)
+        Me.PictureBox11.TabIndex = 61
+        Me.PictureBox11.TabStop = False
+        '
         'Form4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(1892, 1012)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.totallabel)
@@ -290,6 +316,7 @@ Partial Class Form4
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -314,4 +341,6 @@ Partial Class Form4
     Friend WithEvents Label3 As Label
     Friend WithEvents totallabel As Label
     Friend WithEvents Label8 As Label
+    Friend WithEvents Button1 As Button
+    Friend WithEvents PictureBox11 As PictureBox
 End Class
