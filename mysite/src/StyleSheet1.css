@@ -6,6 +6,16 @@
 body{
     background-image:url(../img/galaxy.webp);
 }
-a {
-    color:red;
+.prices{
+    font-size:60px;
+    color:white;
+    text-align:right;
+}
+.aboutus{
+    font-size:30px;
+    color:white;
+}
+hr{
+    height:10px;
+    background-color:white;
 }
