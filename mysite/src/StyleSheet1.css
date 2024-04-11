@@ -1,7 +1,10 @@
 ﻿h1 {
     text-align: center;
-    color: lightgreen;
+    color: white;
     background-color: blueviolet;
+}
+body{
+    background-image:url(../img/galaxy.webp);
 }
 a {
     color:red;
