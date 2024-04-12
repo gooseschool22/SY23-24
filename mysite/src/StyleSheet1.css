@@ -19,3 +19,15 @@ hr{
     height:10px;
     background-color:white;
 }
+p{
+    color:white;
+    font-size:25px
+}
+p.about{
+    color:white;
+    font-size:35px
+}
+.abt{
+    color:white;
+    font-size:25px
+}
